@@ -37,4 +37,16 @@ i) If Product Price > 20,000 then apply 20% discount
 
 ii) If Product Price > 10,000 then apply 15% discount
 
-iii) if Product Price =< 10,000 then apply 10% discount 
+iii) if Product Price =< 10,000 then apply 10% discount
+
+
+**Q3. Write a query to display Product_class_code, Product_class_desc, Count of Product type in each
+product class, Inventory Value (p.product_quantity_avail*p.product_price). Information should be
+displayed for only those product_class_code which have more than 1,00,000 Inventory Value. Sort the
+output with respect to decreasing value of Inventory_Value.**
+
+**Q4. Write a query to display customer_id, full name, customer_email, customer_phone and country of
+customers who have cancelled all the orders placed by them.**
+
+**Q5. Write a query to display Shipper name, City to which it is catering, num of customer catered by the
+shipper in the city , number of consignment delivered to that city for Shipper DHL.**
