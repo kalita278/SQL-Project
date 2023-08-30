@@ -90,3 +90,14 @@ if inventory quantity is more or equal to 70% of quantity sold, show 'Sufficient
 
 **Q7. Write a query to display order_id and volume of the biggest order (in terms of volume) that can fit in
 carton id 10.**
+
+**Q8. Write a query to display customer id, customer full name, total quantity and total value
+(quantity*price) shipped where mode of payment is Cash and customer last name starts with 'G'.**
+
+**Q9. Write a query to display product_id, product_desc and total quantity of products which are sold
+together with product id 201 and are not shipped to city Bangalore and New Delhi.**
+
+**Q10. Write a query to display the order_id, customer_id and customer fullname, total quantity of products
+shipped for order ids which are even and shipped to address where pincode is not starting with "5".**
+
+
