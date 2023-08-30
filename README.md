@@ -50,3 +50,43 @@ customers who have cancelled all the orders placed by them.**
 
 **Q5. Write a query to display Shipper name, City to which it is catering, num of customer catered by the
 shipper in the city , number of consignment delivered to that city for Shipper DHL.**
+
+**Q6. Write a query to display product_id, product_desc, product_quantity_avail, quantity sold and show
+inventory Status of products as per below condition:**
+
+a. For Electronics and Computer categories,
+
+if sales till date is Zero then show 'No Sales in past, give discount to reduce inventory',
+
+if inventory quantity is less than 10% of quantity sold, show 'Low inventory, need to add inventory',
+
+if inventory quantity is less than 50% of quantity sold, show 'Medium inventory, need to add some
+inventory',
+
+if inventory quantity is more or equal to 50% of quantity sold, show 'Sufficient inventory'
+
+b. For Mobiles and Watches categories,
+
+if sales till date is Zero then show 'No Sales in past, give discount to reduce inventory',
+
+if inventory quantity is less than 20% of quantity sold, show 'Low inventory, need to add inventory',
+
+if inventory quantity is less than 60% of quantity sold, show 'Medium inventory, need to add some
+inventory',
+
+if inventory quantity is more or equal to 60% of quantity sold, show 'Sufficient inventory'
+
+c. Rest of the categories,
+
+if sales till date is Zero then show 'No Sales in past, give discount to reduce inventory',
+
+if inventory quantity is less than 30% of quantity sold, show 'Low inventory, need to add inventory',
+
+if inventory quantity is less than 70% of quantity sold, show 'Medium inventory, need to add some
+inventory',
+
+if inventory quantity is more or equal to 70% of quantity sold, show 'Sufficient inventory'
+
+
+**Q7. Write a query to display order_id and volume of the biggest order (in terms of volume) that can fit in
+carton id 10.**
